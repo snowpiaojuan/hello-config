@@ -1,0 +1,9 @@
+server:
+  port: @msPort@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mall_user?characterEncoding=utf8&useSSL=false&useUnicode=true&serverTimezone=UTC
+    username: root
+    password: root
+    driverClassName: com.mysql.cj.jdbc.Driver

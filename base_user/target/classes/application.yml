@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: base-user
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8     # GMT+8或UTC
+    
+info:
+  name: base_user
+  version: 1.0-SNAPSHOT
+  
+server:
+  servlet:
+    context-path: /base_user
